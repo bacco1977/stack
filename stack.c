@@ -47,7 +47,8 @@ int main() {
     }
     printf("\n");
 
-
+    // Dispose the stack
+    StackDispose(&stack);
 
     return 0;
 }
